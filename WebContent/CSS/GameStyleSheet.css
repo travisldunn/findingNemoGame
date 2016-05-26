@@ -1,0 +1,131 @@
+/*table{
+	font-size: 12px;
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+}*/
+
+body{
+	background-image: url("nemoBackground.jpg");
+}
+
+
+td {
+	border: 1px solid #66ff66;
+	text-align: left;
+	padding: 5px;
+	white-space: nowrap;
+}
+
+tr:nth-child(even) {
+	background-color: lightgreen;
+}
+
+tr:nth-child(odd) {
+	background-color: lightblue;
+}
+
+tr:hover {
+	background-color: red;
+}
+
+canvas {
+	background: #ddeeff;
+	padding-left: 0;
+padding-right: 0;
+margin-left: auto;
+margin-right: auto;
+display: block;
+
+}
+#enterScoreDiv{
+	position: absolute;
+	    left: 0;
+	    top: 35%;
+	    width: 100%;
+	    text-align: center;
+	    font-size: 18px;
+
+}
+
+
+#gameOverDiv{
+	position: absolute;
+	    left: 0;
+	    top: 15%;
+	    width: 100%;
+	    text-align: center;
+	    font-size: 45px;
+			color: red;
+
+}
+
+#displayDiv{
+	position: absolute;
+	    top: 65px;
+	    left: 45px;
+	    font-size: 18px;
+			color: blue;
+
+}
+
+
+
+#buttonsDiv
+{
+	position: absolute;
+	    left: 0;
+	    top: 27.5%;
+	    width: 100%;
+	    text-align: center;
+	    font-size: 18px;
+}
+
+
+.buttons
+{
+	border: none;
+	padding: 5px 20px;
+	color: white;
+	background-color: #ff9900;
+	text-align: center;
+	font-size: 1em;
+	margin: 0;
+	padding-right: : 1em;
+	padding-left: : 1em;
+margin: 5px;
+	border-radius: 25px;
+}
+.buttons:hover
+{
+	color: #ff9900;
+	background-color: white;
+	/*background-color: #d9d9d9;*/
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+h1{
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	word-spacing: 10px;
+	text-align: center;
+	 color: green;
+	font-size: 55px;
+}
+
+table, th, td
+{
+  border: 2px solid;
+  border-style: solid;
+	border-color: #ff9900
+  padding: 5px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+#table
+{
+	margin-top: 1em;
+	/*padding-top: 1em;*/
+}
